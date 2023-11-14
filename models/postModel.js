@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 // route handler
 
 const postSchema = new mongoose.Schema({
-    titel:{
+    title:{
         type: String,
         required : true,
     },
