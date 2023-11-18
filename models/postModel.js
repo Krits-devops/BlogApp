@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-
 // route handler
 
 const postSchema = new mongoose.Schema({
@@ -22,7 +21,6 @@ const postSchema = new mongoose.Schema({
     }]
 
 })
-
 
 // export
 module.exports = mongoose.model("Post", postSchema);
